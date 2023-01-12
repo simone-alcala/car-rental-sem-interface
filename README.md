@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://www.svgrepo.com/download/452234/java.svg" height="110" alt="Nest Logo" /></a>
+</p>
+
 ## Getting Started with CarRental
 
 > Enter rental information to calculate the total payment
