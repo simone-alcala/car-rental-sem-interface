@@ -7,7 +7,7 @@ import java.util.Scanner;
 import model.entities.CarRental;
 import model.entities.Vehicle;
 import services.RentalService;
-import services.TaxService;
+import services.BrazilTaxService;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -36,7 +36,7 @@ public class App {
             System.out.print("Entre com o preço por dia: ");
             double pricePerDay = sc.nextDouble();
     
-            RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new TaxService());
+            RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
     
             rentalService.processInvoice(carRental);
     
